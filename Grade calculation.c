@@ -2,12 +2,18 @@
 int main(){
     int mark;
     scanf("%d",&mark);
-    if(mark>=75 && mark<=90)
+     if(mark>=90){
+        printf("Grade A");
+    }
+   else if(mark>=75 && mark<90)
     {
-        printf("Grade B");
+        printf("Grade B+");
+        }
+        else if(mark>=60 &&mark<75 ){
+            printf("Grade B");
         }
         else{
-            printf("Other Grade");
+            printf("Grade C");
         }
     return 0;
     
