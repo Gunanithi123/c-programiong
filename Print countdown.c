@@ -2,10 +2,9 @@
 int main(){
     int n,rev;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-       rev=n-i;
-    
-        printf("%d\n", rev);
+    for(int i = n; i >= 1; i--){ 
+        
+        printf("%d\n", i);
     }
         return 0;
     
